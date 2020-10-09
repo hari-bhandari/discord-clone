@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52c3bb0e-5981-41c7-94af-a9ca065693c3" name="Default Changelist" comment="" />
+    <list default="true" id="52c3bb0e-5981-41c7-94af-a9ca065693c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Layout/Sidebar/SidebarChannel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Layout/Sidebar/SidebarChannel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Sidebar/Sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Sidebar/Sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Sidebar/Sidebar.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1idenV0XdW4w894eZgfKDRy67nM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -28,7 +40,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602242062946</updated>
-      <workItem from="1602242064105" duration="1967000" />
+      <workItem from="1602242064105" duration="3365000" />
+      <workItem from="1602249847560" duration="1726000" />
     </task>
     <servers />
   </component>
