@@ -15,3 +15,6 @@
     color: white;
     border-bottom: 3px solid #26282c;
 }
+.sidebar__channels{
+    flex: 1;
+}
