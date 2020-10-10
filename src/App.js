@@ -5,7 +5,7 @@ import Sidebar from "./Components/Layout/Sidebar/Sidebar";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Sidebar/>
     </div>
   );
