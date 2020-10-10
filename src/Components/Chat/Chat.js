@@ -9,7 +9,9 @@ const Chat = () => {
     return (
         <div className="chat">
             <ChatHeader/>
-            <div className="chat_messages"></div>
+            <div className="chat_messages">
+
+            </div>
             <div className="chat__input">
                 <AddCircleIcon fontSize="large"/>
                 <form>
