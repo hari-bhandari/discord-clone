@@ -3,10 +3,13 @@ import helmet from 'helmet'
 import cors from 'cors'
 import connectDB from './config/db.js'
 const app=express()
+import auth from './routes/auth.js'
 
 const PORT= process.env.PORT||5000
+app.use('/api/auth',auth)
 connectDB()
 ////////////////////////////////
+ 
 //config
 
 //Body parser

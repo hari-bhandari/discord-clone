@@ -1,6 +1,6 @@
 import User from '../models/User.js'
-import asyncHandler from "../../../../Downloads/facebook-clone-main/facebook-clone-main/server/middlewares/async.js";
-import ErrorResponse from "../../../../Downloads/facebook-clone-main/facebook-clone-main/server/utils/errorResponse.js";
+import asyncHandler from "../middlewares/async.js";
+import ErrorResponse from "../utils/errorResponse.js";
 //@desc register a user
 //@route POST /api/v1/auth/register
 //@access Public
