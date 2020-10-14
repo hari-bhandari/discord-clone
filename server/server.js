@@ -1,10 +1,11 @@
 import express from 'express'
 import helmet from 'helmet'
 import cors from 'cors'
+import connectDB from './config/db.js'
 const app=express()
 
 const PORT= process.env.PORT||5000
-
+connectDB()
 ////////////////////////////////
 //config
 
