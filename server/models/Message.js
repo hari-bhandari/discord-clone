@@ -1,5 +1,4 @@
 import mongoose from 'mongoose'
-
 const MessageSchema = new mongoose.Schema({
     channelName: {
         type:String,
@@ -18,8 +17,6 @@ const MessageSchema = new mongoose.Schema({
         ref:'User',
         required:true
     }
-
-
 });
 
 export default mongoose.model('Message', MessageSchema)
