@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c3bb0e-5981-41c7-94af-a9ca065693c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middlewares/advancedResult.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middlewares/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middlewares/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/middlewares/error.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -74,7 +78,7 @@
       <workItem from="1602602171254" duration="1310000" />
       <workItem from="1602610959696" duration="318000" />
       <workItem from="1602611282013" duration="544000" />
-      <workItem from="1602647848340" duration="2458000" />
+      <workItem from="1602647848340" duration="4853000" />
     </task>
     <servers />
   </component>
