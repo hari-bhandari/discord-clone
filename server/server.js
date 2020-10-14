@@ -8,7 +8,6 @@ const PORT= process.env.PORT||5000
 ////////////////////////////////
 //config
 
-connectDB()
 //Body parser
 app.use(express.json());
 //connecting to db
