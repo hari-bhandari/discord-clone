@@ -1,5 +1,6 @@
 import express from 'express'
-
+import helmet from 'helmet'
+import cors from 'cors'
 const app=express()
 
 const PORT= process.env.PORT||5000
@@ -7,15 +8,16 @@ const PORT= process.env.PORT||5000
 ////////////////////////////////
 //config
 
-
+connectDB()
 //Body parser
 app.use(express.json());
 //connecting to db
 //implementing helmet
-
+app.use(helmet())
 //cors
-
+app.use(cors())
 //routes
+
 //implementing error handler
 const server=app.listen(PORT,()=>console.log(`server running in Production mode on port ${PORT}`))
 
