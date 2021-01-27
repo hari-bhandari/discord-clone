@@ -49,7 +49,7 @@ const Sidebar = () => {
                         <ExpandMoreIcon/>
                         <h4>Test Channels</h4>
                     </div>
-                    <AddIcon className="sidebar__addChannel"/>
+                    <AddIcon onClick={handleAddChannel} className="sidebar__addChannel"/>
                 </div>
                 <div className="sidebar__channelsList">
                     {channels.map(({id, channel}) => (
