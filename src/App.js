@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Sidebar from "./Components/Layout/Sidebar/Sidebar";
 import Chat from "./Components/Chat/Chat";
-import { Counter } from './features/counter/Counter';
 
 
 function App() {
