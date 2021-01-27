@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
 import SignalCellularAltIcon from '@material-ui/icons/SignalCellularAlt';
@@ -10,7 +10,33 @@ import SettingsIcon from '@material-ui/icons/Settings';
 import './Sidebar.css'
 import SidebarChannel from "./SidebarChannel";
 import {Avatar} from "@material-ui/core";
+import {selectUser} from "../../../features/userSlice";
+import {useSelector} from "react-redux";
+import db,{auth} from "../../../firebase/firebase";
 const Sidebar = () => {
+    const [channels, setChannels] = useState([]);
+
+    const user = useSelector(selectUser);
+    useEffect(() => {
+        db.collection('channels').onSnapshot(snapshot => (
+            setChannels(snapshot.docs.map((doc) => ({
+                id: doc.id,
+                channel: doc.data(),
+
+            })))
+        ))
+    }, [])
+
+    const handleAddChannel = () => {
+        const channelName = prompt("Enter a new Channel Name");
+
+        if (channelName) {
+            db.collection("channels").add({
+                channelName: channelName,
+
+            });
+        }
+    }
     return (
         <div className={"sidebar"}>
             <div className="sidebar__top">
