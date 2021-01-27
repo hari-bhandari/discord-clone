@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c3bb0e-5981-41c7-94af-a9ca065693c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/features/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/appSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/counterSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/userSlice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Counter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/counter/userSlice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -82,7 +88,7 @@
       <workItem from="1602698839179" duration="458000" />
       <workItem from="1611692730883" duration="393000" />
       <workItem from="1611741052684" duration="1278000" />
-      <workItem from="1611775224138" duration="2309000" />
+      <workItem from="1611775224138" duration="3453000" />
     </task>
     <servers />
   </component>
