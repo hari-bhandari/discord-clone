@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
 import SignalCellularAltIcon from '@material-ui/icons/SignalCellularAlt';
@@ -52,10 +52,13 @@ const Sidebar = () => {
                     <AddIcon className="sidebar__addChannel"/>
                 </div>
                 <div className="sidebar__channelsList">
-                    <SidebarChannel/>
-                    <SidebarChannel/>
-                    <SidebarChannel/>
-                    <SidebarChannel/>
+                    {channels.map(({id, channel}) => (
+                        <SidebarChannel
+                            key={id}
+                            id={id}
+                            channelName={channel.channelName}
+                        />
+                    ))}
                 </div>
             </div>
             <div className="sidebar__voice">
@@ -70,7 +73,7 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className="sidebar__profile">
-                <Avatar/>
+                <Avatar onClick={() => auth.signOut()} />
                 <div className="sidebar__profileInfo">
                     <h3>Hari</h3>
                     <p>hari_bhan</p>
