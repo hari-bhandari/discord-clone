@@ -35,7 +35,6 @@ function App() {
       <div className="app">
           {user ? (
               <>
-                  <Bar/>
                   <Sidebar />
                   <Chat />
               </>

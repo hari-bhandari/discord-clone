@@ -14,7 +14,6 @@ import firebase from 'firebase';
 
 
 function Chat() {
-
     const user = useSelector(selectUser);
     const channelId = useSelector(selectChannelId);
     const channelName = useSelector(selectChannelName);

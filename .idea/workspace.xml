@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c3bb0e-5981-41c7-94af-a9ca065693c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Chat/Chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Chat/Chat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Chat/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Chat/Chat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Layout/Sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Sidebar/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Layout/Sidebar/SidebarChannel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Layout/Sidebar/SidebarChannel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +88,8 @@
       <workItem from="1611692730883" duration="393000" />
       <workItem from="1611741052684" duration="1278000" />
       <workItem from="1611775224138" duration="3757000" />
-      <workItem from="1611779810874" duration="553000" />
+      <workItem from="1611779810874" duration="1224000" />
+      <workItem from="1611860018378" duration="335000" />
     </task>
     <servers />
   </component>
